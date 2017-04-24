@@ -1,0 +1,147 @@
+/*regular*/
+body {
+    font-family: 'Palanquin', sans-serif;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*classes*/
+.right-nav-item {
+    position: absolute;
+    left: 150%;
+}
+
+.thumbnail {
+   padding: 0;
+   border: none;
+   background-color: white;
+}
+
+item-image {
+    transition: 1s all;
+}
+
+.item-info{
+    display: none;
+}
+
+.item-box {
+    background-color: white;
+    margin: 4%;
+}
+
+.down-arrow-menu {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
+
+.form-box {
+    margin: 18% 35%;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 5%;
+    border: 1px solid #bfbfbf;
+}
+
+.usermessage {
+    text-align: center;
+    width: 50%;
+    margin: 0.5% auto;
+    margin-bottom: 1%;
+    padding: 1% 5%;
+    border-style: outset;
+    border-color: white;
+}
+
+.badinput-message {
+    background-color: rgba(255, 214, 51 , 0.5); 
+}
+
+.navbar {
+    border: none;
+}
+
+
+
+
+
+/*id's*/
+
+#shopMenu {
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding-left: 0;
+    border: 1px solid whitesmoke;
+}
+
+
+
+#shopHeadLine{
+    text-align: center;
+    padding: 2%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+/*#itemsGallery {
+    border: 1px solid whitesmoke;
+    width: 800px;
+    height: 300px;
+    border-style: solid;
+}*/
+
+/*others*/
+
+.navbar , footer {
+    background-color: #4d4d4d;
+}
+
+hr.hr-style { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+hr.hr-style:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+li.menu-option {
+    padding: 2%;
+    font-size: medium;
+    display: block;
+    border-radius: 0;
+    transition: 1s all;
+    background-color: whitesmoke;
+}
+
+li.menu-option:hover {
+    background-color: black;
+    color:white;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: 1s all;
+}
+.nav a:hover {
+    color: black; 
+}
